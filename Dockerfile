@@ -10,3 +10,5 @@ RUN cd ipyleaflet \
 RUN jupyter nbextension install --py --symlink --sys-prefix ipyleaflet \
  && jupyter nbextension enable --py --sys-prefix ipyleaflet \
  && jupyter labextension install jupyter-leaflet
+
+RUN conda install jupyter_dashboards -c conda-forge
