@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook:03b897d05f16
+FROM jupyter/scipy-notebook:702d2f6a3eaa
 
 RUN git clone https://github.com/jupyter-widgets/ipyleaflet.git
 
